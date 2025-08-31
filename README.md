@@ -18,7 +18,7 @@ A Python program that evaluates the strength of a password based on **length, ch
 
 1. Make sure you have **Python 3.x** installed.  
 2. Clone or download this repository.  
-3. Place the file `common-passwords.txt` in the same directory as `analyzer.py`.  
+3. Place the file `common-passwords.txt` in the same directory as `analyser.py`.  
    - This file should contain a list of common passwords, one per line.  
 
 ---
