@@ -1,4 +1,4 @@
-# Password Strength Analyzer
+# Password Strength Analyser
 
 A Python program that evaluates the strength of a password based on **length, character variety, entropy, and common passwords**. Provides a **detailed report** and rates the password as Weak, Fair, Strong, or Very Strong.
 
@@ -19,7 +19,7 @@ A Python program that evaluates the strength of a password based on **length, ch
 1. Make sure you have **Python 3.x** installed.  
 2. Clone or download this repository.  
 3. Place the file `common-passwords.txt` in the same directory as `analyser.py`.  
-   - This file should contain a list of common passwords, one per line.  
+   - This file should contain a list of common passwords, one per line.
 
 ---
 
@@ -29,25 +29,5 @@ A Python program that evaluates the strength of a password based on **length, ch
 2. Navigate to the directory containing the script.  
 3. Run the program:
 
----
-
-## How It Works
-
-- *Length* *Score*:
-
-Passwords shorter than 8 characters are penalized.
-Longer passwords earn more points.
-
-- *Character* *Variety*:
-
-Points awarded for including lowercase, uppercase, digits, and symbols.
-
-- *Entropy* *Score*:
-
-Measures the uniqueness of characters in the password.
-Scaled to give stronger passwords higher points.
-
-- *Common* *Password* *Check*:
-
-If the password exists in common-passwords.txt, it is flagged as Very Weak.
-
+```bash
+python analyser.py
