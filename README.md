@@ -29,5 +29,25 @@ A Python program that evaluates the strength of a password based on **length, ch
 2. Navigate to the directory containing the script.  
 3. Run the program:
 
-```bash
-python analyzer.py
+---
+
+## How It Works
+
+- *Length* *Score*:
+
+Passwords shorter than 8 characters are penalized.
+Longer passwords earn more points.
+
+- *Character* *Variety*:
+
+Points awarded for including lowercase, uppercase, digits, and symbols.
+
+- *Entropy* *Score*:
+
+Measures the uniqueness of characters in the password.
+Scaled to give stronger passwords higher points.
+
+- *Common* *Password* *Check*:
+
+If the password exists in common-passwords.txt, it is flagged as Very Weak.
+
